@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/desert.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif
+}
+
+.timer-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5;
+    width: 600px;
+}
+h1 {
+    font-size: 4rem;
+    margin-top: 200px;
+    text-align: center;
+}
+.big-text{
+    font-size: 4rem;
+    font-weight: 700;
+}
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
